@@ -20,6 +20,7 @@ export async function createClient(signer, network) {
 }
 
 export async function loadKeplrWallet(config) {
+  const anyWindow = window;
   if (!anyWindow.getOfflineSigner) {
     Swal.fire({
       icon: "warning",
