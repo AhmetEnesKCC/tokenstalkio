@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: conic-gradient(
+    from 93.98deg at -10.51% 39.16%,
+    #1e1953 -52.54deg,
+    #000000 83.45deg,
+    #1f3662 207.99deg,
+    #1b3464 269.86deg,
+    #26215c 289.98deg,
+    #1e1953 307.46deg,
+    #000000 443.45deg
+  );
+}
+
+input {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  outline: none;
+  color: white;
+}
